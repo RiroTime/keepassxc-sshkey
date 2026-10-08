@@ -1,0 +1,17 @@
+# Python 缓存 / Python caches
+__pycache__/
+*.py[cod]
+
+# 备份 / Backups
+*.bak
+*.orig
+*.old
+
+# 本地配置 / Local config
+config.json
+
+# 编辑器与系统 / Editors & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

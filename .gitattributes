@@ -1,0 +1,22 @@
+# 统一行尾为 LF
+#
+# 这个项目是纯 Python，没有必须保留 CRLF 的批处理文件；
+# 统一成 LF 可以让 diff 干净、跨平台一致。
+
+* text=auto eol=lf
+
+*.py    text eol=lf
+*.md    text eol=lf
+*.json  text eol=lf
+LICENSE text eol=lf
+.gitignore     text eol=lf
+.gitattributes text eol=lf
+
+# 二进制文件不做任何转换
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.kdbx binary
+*.zip  binary
